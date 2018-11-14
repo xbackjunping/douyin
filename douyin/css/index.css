@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  display: flex;          
+  flex-direction: column; 
+  font-size: 12px;        
+  font-family: arial;     
+}
+
+.page-header .left{
+  padding-top: 40px;
+  padding-right: 200px;
+}
+
+.page-header .right{
+  color: white;
+  margin-right: 100px;
+  text-align: right;
+}
+
+.page-mainer .slogan img{
+  position: absolute;
+  right: 200px;
+  top: 150px;
+  width: 220px;
+  height: 100px;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page-mainer .appstore img{
+  position: absolute;
+  right: 410px;
+  top: 300px;
+  width: 120px;
+  height: 50px;
+}
+
+
+
+.page-mainer .android img{
+  position: absolute;
+  right: 280px;
+  top: 300px;
+  width: 120px;
+  height: 50px;
+}
+
+
+
+.page-mainer .QRcode img{
+  position: absolute;
+  right: -4px;
+  top: 270px;
+  width: 80px;
+  height: 80px;
+  padding-right: 200px;
+}
+
+.page-footer{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
